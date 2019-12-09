@@ -1,8 +1,8 @@
 /* 
  * Copyright 2010-2019 Imotion Studio
  */
- 
-**
+
+/**
 * Fade In Script After Effects
 * Utiliza este Script para hacer un fade un homogenio en todas tus capas.
 * El siguiente Script se usa sobre la propiedad de Opacidad de la capa.
