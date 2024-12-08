@@ -1,8 +1,11 @@
-amp = .13;
-freq = 2.0;
-decay = 2.0;
+/**
+* Create null object name "controller" and add "slider" expression effect = "amp" "freq" "decay" "time_max"
+**/
+amp = thisComp.layer("controller").effect("amp")("Slider");
+freq = thisComp.layer("controller").effect("freq")("Slider");
+decay = thisComp.layer("controller").effect("decay")("Slider");
+time_max=thisComp.layer("controller").effect("time_max")("Slider");
 n = 0;
-time_max=4;
 if (numKeys > 0) {
 	n = nearestKey(time).index;
 	if (key(n).time > time){
